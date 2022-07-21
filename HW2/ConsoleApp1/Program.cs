@@ -107,7 +107,7 @@ while (!timeToExit)
             numberOfYear++;
         }
 
-        Console.WriteLine(numberOfYear + " year");
+        Console.WriteLine("it will take " + numberOfYear + " year");
 
         taskCompleted(16);
     }
@@ -129,7 +129,7 @@ while (!timeToExit)
             dayNumber++;
         }
 
-        Console.WriteLine(dayNumber + " days");
+        Console.WriteLine("it will take " + dayNumber + " days");
 
         taskCompleted(17);
     }
