@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HW2\\HomeWork2\\HomeWork2.csproj": {}
+    "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HomeWork3\\HomeWork2.csproj": {}
   },
   "projects": {
-    "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HW2\\HomeWork2\\HomeWork2.csproj": {
+    "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HomeWork3\\HomeWork2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HW2\\HomeWork2\\HomeWork2.csproj",
+        "projectUniqueName": "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HomeWork3\\HomeWork2.csproj",
         "projectName": "HomeWork2",
-        "projectPath": "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HW2\\HomeWork2\\HomeWork2.csproj",
+        "projectPath": "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HomeWork3\\HomeWork2.csproj",
         "packagesPath": "C:\\Users\\Ryzhov\\.nuget\\packages\\",
-        "outputPath": "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HW2\\HomeWork2\\obj\\",
+        "outputPath": "C:\\remove\\HW\\hw_numbers\\homework_numbers\\HomeWork3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

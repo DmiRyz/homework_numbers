@@ -1,0 +1,15 @@
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\bin\Debug\net6.0\HomeWork4.exe
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\bin\Debug\net6.0\HomeWork4.deps.json
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\bin\Debug\net6.0\HomeWork4.runtimeconfig.json
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\bin\Debug\net6.0\HomeWork4.dll
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\bin\Debug\net6.0\HomeWork4.pdb
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.csproj.AssemblyReference.cache
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.GeneratedMSBuildEditorConfig.editorconfig
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.AssemblyInfoInputs.cache
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.AssemblyInfo.cs
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.csproj.CoreCompileInputs.cache
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.dll
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\refint\HomeWork4.dll
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.pdb
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\HomeWork4.genruntimeconfig.cache
+C:\remove\HW\hw_numbers\homework_numbers\HomeWork4\HomeWork4\obj\Debug\net6.0\ref\HomeWork4.dll
