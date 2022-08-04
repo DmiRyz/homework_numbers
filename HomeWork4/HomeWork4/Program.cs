@@ -22,6 +22,12 @@ while (!timeToExit)
         case 29:
             task29();
             break;
+        case 30:
+            task30();
+            break;
+        case 31:
+            task31();
+            break;
         case 0:
             timeToExit = true;
             Console.WriteLine("Thank you. See you again :)");
@@ -84,6 +90,107 @@ void task29()
     Console.WriteLine("[" + string.Join(",", array) + "]");
 
     taskCompleted(29);
+}
+
+void task30()
+{
+    choseTask(30);
+    Console.WriteLine("Task name: \"Distance between peaks\"");
+    int[] array = new int[100];
+    int firstLocalMax = 0;
+    int distance = 0;
+    int minDistant = 0;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write("Please write " + i + " element: ");
+        array[i] = Convert.ToInt32(Console.ReadLine());
+
+        if (array[i] == 0)
+        {
+            break;
+        }
+    }
+    
+    for(int j = 1; j < array.Length - 1; j++)
+    {
+        if (array[j] == 0)
+        {
+            break;
+        }
+
+        if (array[j] > array[j - 1] && array[j] > array[j + 1])
+        {
+            if(firstLocalMax != 0)
+            {
+                distance = j - firstLocalMax;
+                if (minDistant == 0 || distance < minDistant)
+                {
+                    minDistant = distance;
+                }
+            }
+            
+            firstLocalMax = j;
+            j++;
+            
+        }
+    }
+
+    Console.WriteLine("Min distance: " + minDistant);
+
+    taskCompleted(30);
+}
+
+void task31()
+{
+    choseTask(31);
+    Console.WriteLine("Task: \"Picking blueberries\"");
+    Console.Write("Please write quantity from 3 to 1000: ");
+    int quantity = Convert.ToInt32(Console.ReadLine());
+    int amount = 0;
+    int tempAmount = 0;
+    
+
+    while(quantity < 3 || quantity > 1000)
+    {
+        Console.Write("Please write quantity from 3 to 1000: ");
+        quantity = Convert.ToInt32(Console.ReadLine());
+    }
+    int[] array = new int[quantity];
+
+    for(int i = 0; i < quantity; i++)
+    {
+        Console.Write("Please write " + i + " element: ");
+        array[i] = Convert.ToInt32(Console.ReadLine());
+        //array[i] = new Random().Next(1, 1001);
+
+    }
+
+    for(int j = 0; j < array.Length; j++)
+    {
+        if(j == 0)
+        {
+            amount = array[array.Length - 1] + array[j] + array[j + 1];
+            continue;
+        }
+        else if(j == array.Length - 1)
+        {
+            tempAmount = array[j - 1] + array[j] + array[0];
+        }
+        else
+        {
+            tempAmount = array[j - 1] + array[j] + array[j + 1];
+        }
+
+        if (tempAmount > amount)
+        {
+            amount = tempAmount;
+        }
+    }
+
+    Console.WriteLine("Max amount is: " + amount);
+
+    taskCompleted(31);
 }
 
 void choseTask(int taskNumber)
